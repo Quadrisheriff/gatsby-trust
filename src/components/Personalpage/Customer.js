@@ -1,17 +1,17 @@
 import React from "react";
 import businessCover from "../../images/businessCover.png";
-import LogoPng from "../../images/businessLogo.png";
-const Business = () => (
+import customerPng from "../../images/undraw_contact_us_15o2 1.png";
+
+const Customer = () => (
   <>
     <section className="relative">
       <div className="flex flex-col md:flex-row justify-between max-w-screen-lg mx-auto py-20 md:py-24">
-        <div className="md:w-6/12 flex-shrink-0 relative">
-          <img className="block h-auto shadow" src={businessCover} />
+        <div className="max-w-3xl flex-shrink-0 relative">
+          <img className="block h-auto shadow" src={customerPng} />
         </div>
         <div className="md:w-6/12 mt-16 md:mt-0 md:ml-12 lg:ml-16 md:order-last">
           <div className="lg:py-8 text-center md:text-left">
-            <div className="max-w-2xl">
-              <img src={LogoPng} />
+            <div className="max-w-3xl">
               <h2 className="font-black text-blue-primary text-2xl md:text-3xl leading-snug max-w-2xl mt-2">
                 Sell easier and safer with TrustBroker.
               </h2>
@@ -33,4 +33,4 @@ const Business = () => (
   </>
 );
 
-export default Business;
+export default Customer;

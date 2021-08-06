@@ -18,13 +18,13 @@ const Hero = () => (
           className="w-full h-full absolute opacity-30 bg-blue-medium"
         ></span>
       </div>
-      <div className="container relative mt-32 lg:mt-32">
+      <div className="container relative max-w-6xl mx-auto mt-32 lg:mt-32">
         <div className="flex flex-wrap justify-start mx-3">
           <div className="w-full lg:w-6/12">
-            <h1 className="text-white text-4xl lg:text-6xl font-extrabold">
-              Gain access to a world of unlimited growth.
+            <h1 className="text-white block text-4xl lg:text-6xl font-extrabold">
+              Gain access to a world of unlimited growth and opportunities.
             </h1>
-            <button className="bg-white mt-7 py-3 px-10 rounded-full leading-normal text-blue-medium font-bold text-md shadow shadow-lg hover:bg-blue-primary focus:outline-2">
+            <button className="bg-white block mt-7 py-3 px-10 rounded-full leading-normal text-blue-medium font-extrabold text-md shadow shadow-lg hover:bg-blue-medium hover:text-white focus:outline-2 lg:mt-10">
               Discover TrustBroker
             </button>
           </div>
