@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "TrustBroker",
   },
+  pathPrefix: "/gatsby-trust",
   plugins: [
     "gatsby-plugin-image",
     {
